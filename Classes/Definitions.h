@@ -1,0 +1,34 @@
+#ifndef __DEFINITIONS_H__
+#define __DEFINITIONS_H__
+
+//定数定義
+#define DESPLAY_TIME_SPLASH_SCENE 2
+#define TRANSITION_TIME 0.5
+#define PIPE_SPAWN_FREQUENCY 0.005 //schedule interval timer
+
+#define PIPE_GAP 10
+#define UPPER_SCREEN_PIPE_THRESHOLD 0.65
+#define LOWER_SCREEN_PIPE_THRESHOLD 0.35
+
+//移動速度
+#define PIPE_MOVEMENT_SPEED 0.01
+
+//衝突設定
+#define BIRD_COLLISION_BITMASK 0x000001
+#define OBSTACLE_COLLISION_BITMASK 0x000002
+
+
+#define POINT_COLLISION_BITMASK 0x000003
+
+//落下スピード
+#define BIRD_FALLING_SPEED 0.0025
+
+//上昇スピード
+#define BIRD_FLYING_SPEED 0.00375
+
+//上昇持続時間
+#define BIRD_FRY_DURATION .25 
+
+#define SCORE_FONT_SIZE 0.1
+
+#endif // __DEFINITIONS_H__
